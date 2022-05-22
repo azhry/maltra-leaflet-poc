@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+}
+
+#map {
+    width: 79%;
+    height:100%;
+    padding:0px !important;
+    margin:0px !important;
+}
+
+.popup-fixed {
+    position: fixed;
+    top: 30% !important;
+    left: 5% !important;
+    transform: none !important;
+    margin: 0;
+    border-radius: 0;
+}
+
+.leaflet-popup-tip-container {
+    display: none;
+}
+
+.leaflet-popup-content-wrapper {
+    border-radius: 0;
+}
+
+.leaflet-control-layers {
+    border: 5px solid rgba(12, 33, 218, 0.65);
+}
+
+#wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    width: 100%;
+    height: 15%;
+    max-height: 80px;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    max-width: 320px;
+}
+
+#header-title > h1 {
+    font-size: 22px;
+}
+
+#profile-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 55%;
+}
+
+#profile-wrapper #profile {
+    width: 42px !important;
+    height: 42px !important;
+    background-color: #FE7347;
+    border-radius: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile-wrapper > select {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#content-wrapper {
+    display: flex;
+    height: 85%;
+}
+
+#sidebar {
+    width: 25%;
+    padding: 16px;
+}
+
+.input-group-text {
+    background-color: transparent;
+    border-left: none !important;
+}
+
+#search {
+    border-right: none;
+}
+
+#filter-layer {
+    padding-top: 20px;
+    font-size: 0.95rem;
+}
+
+.filter-layer-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.filter-indicator {
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+}
+
+.filter-checkbox {
+    width: 80%;
+}
+
+.filter-checkbox > .form-check-label {
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
